@@ -1,6 +1,6 @@
 """Lead-lag 페어를 그래프로 보고 community 기반 보정 점수를 계산한다.
 
-페어 그래프에서 동일 community 안에서 잘 연결된 leader 일수록 follower 의 미래
+페어 그래프의 동일 community 안에서 잘 연결된 leader 일수록 follower 의 미래
 값을 잘 설명할 가능성이 높다는 가정으로, 단순한 graph score 를 후보 정렬에 더한다.
 """
 
